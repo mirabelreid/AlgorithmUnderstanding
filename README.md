@@ -1,6 +1,10 @@
 # AlgorithmUnderstanding
 Supplementary material for the paper Does GPT Really Get It? A Hierarchical Scale to Quantify Human and AI's Understanding of Algorithms. Includes the full set of questions used for evaluation and sample responses. 
 
+### Files
+ * GPT-Questions.xlsx : contains the full set of questions given to GPT, with instructions on how random values were initialized.
+ * Qualtrics-Human-Survey.pdf : The full survey given to student participants (6 survey versions in one pdf).
+
 
 ### Further details on LLM experiments
 In each experiment on GPT, the query included a system prompt to encourage the model to produce only relevant information. The system prompts used in the experiments are as follows: 
