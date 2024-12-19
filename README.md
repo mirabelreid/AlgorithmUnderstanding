@@ -20,4 +20,5 @@ Human and LLM responses were evaluated with the same criteria.
 * For Level 1 (Simple Evaluation) and Level 2 (Step-by-Step Evaluation), the response was given a score of 2 if the answer was correct. A score of 1 was given if the answer was incorrect due to at most one calculation error.
 * For Level 3 (Code Representation) questions, the response was given a score of 2 if the code correctly computed the output for all inputs. A score of 1 was given if the code was conceptually correct with some minor error (e.g., forgetting to initialize a variable). Minor syntactical errors were ignored.
 * For Level 4a (Example) and 5a (Counterexample/Extrapolation), a score of 2 was given for a correct example, and a score of 1 was given if the example was incorrect due to at most one calculation error.
-* Level 4b (Explanation) and 5b (Counterfactual Question) were graded as described in the “Evaluation” section of the paper.
+* For Level 5b (Counterfactual Question), a score of 2 was given for a thorough response, and a score of 1 was given for a partial or surface-level response.
+* Level 4b (Explanation) was graded as described in the “Evaluation” section of the paper.
